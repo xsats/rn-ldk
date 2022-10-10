@@ -24,7 +24,7 @@ export default function App() {
       <Button
         onPress={async () => {
           console.warn('starting...');
-          const entropy = '8b626e47cf7f878f86f782354234623462346234623462343246b2eb118712e8';
+          const entropy = '8b626e47cf7f878f86f782354234623462346234623462343246b2eb111112e8';
 
           const syncedStorage = new SyncedAsyncStorage(entropy);
           await syncedStorage.selftest();
